@@ -1,0 +1,119 @@
+:root {
+    --black:#000000;
+    --grey: #222222;
+    --light-grey:#282828;
+    --light-grey2:#303030;
+    --white: #ffffff;
+    --black2:#181818;
+}
+
+
+.right-side{
+    background-image: linear-gradient(to bottom,#809A94, #000000,#000000);
+        width: 100%;
+        overflow-y: auto;
+
+}
+.right-top{
+    width: 100%;
+    /* background-color: red; */
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+.wrapper{
+    height: 100%;
+    display: flex;
+    /* background-color: blue; */
+    justify-content: center;
+    align-items: end;
+}
+.song-title{
+    /* background-color: brown; */
+   margin-bottom: 20px;
+   height: 80%;
+}
+.song-title h1{
+    font-size:5rem ;
+    font-weight: 900;
+}
+.song-title p{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+.right-bottom{
+
+}
+.Icons{
+    margin-left: 30px;
+    width: 12%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    bottom: 0;
+    /* background-color: blue; */
+}
+
+.song-list{
+    margin-top: 80px;
+    /* background-color: rgb(226, 221, 221); */
+    margin-bottom: 100px;
+}
+.s1{
+    display: flex;
+    /* background-color: blue; */
+    width: 95%;
+    justify-content: space-between;
+    height:5rem ;
+    align-items: center;
+    margin: 0 auto;
+    padding:0 1rem;
+}
+.s1:hover{
+    background-color: var(--grey);
+    border-radius: 10px;
+}
+.s1-title{
+    /* background-color: red; */
+    width: 20%;
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: start;
+}
+.divs{
+    align-self: end;
+}
+
+@media screen and (max-width:1300px){
+    .s1-title{
+        width: 25%;
+    }
+}
+
+@media screen and (max-width:1060px){
+    .s1-title{
+        flex:2;
+    }
+    .Album-name{
+        flex:3;
+    }
+    .date{
+        flex:1;
+    }
+}
+@media screen and (max-width:850px) {
+    .s1-title{
+        flex:2;
+    }
+    .Album-name{
+        flex:2;
+    }
+    .date{
+        flex:1;
+    }
+}
+
+
